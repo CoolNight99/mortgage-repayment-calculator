@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+/* body */
+body {
+  background-color: hsl(202, 86%, 94%) !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+body main .container {
+  background-color: hsl(0, 0%, 100%);
+  width: 53.125rem;
+  border-radius: 0.625rem;
+}
+body main .container .row {
+  /* form column */
+  /* results column */
+}
+body main .container .row .form-col .form-col-header h5 {
+  font-weight: 700;
+}
+body main .container .row .form-col .form-col-header p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body main .container .row .form-col form label {
+  color: hsl(202, 55%, 16%);
+  font-size: 0.9375rem;
+}
+body main .container .row .form-col form .input-group {
+  border: 0.0625rem solid hsl(202, 55%, 16%);
+  border-radius: 0.3125rem;
+}
+body main .container .row .form-col form .input-group input {
+  font-weight: 700;
+  cursor: pointer;
+}
+body main .container .row .form-col form .input-group input:hover {
+  outline: none;
+  box-shadow: none;
+}
+body main .container .row .form-col form .input-group .input-group-text {
+  background-color: hsl(202, 86%, 94%);
+  font-weight: 700;
+}
+body main .container .row .form-col form .input-group:hover, body main .container .row .form-col form .input-group:focus-within {
+  box-shadow: none;
+  outline: none;
+}
+body main .container .row .form-col form .input-group:focus-within .input-group-text {
+  background-color: hsl(61, 70%, 52%);
+}
+body main .container .row .form-col form button {
+  background-color: hsl(61, 70%, 52%);
+  font-weight: 700;
+  border-radius: 3.125rem;
+  transition: opacity 0.2s;
+}
+body main .container .row .form-col form button:hover {
+  opacity: 0.6;
+}
+body main .container .row .form-col form .form-check {
+  border: 0.0625rem solid hsl(202, 55%, 16%);
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+body main .container .row .form-col form .form-check input {
+  border: 0.0625rem solid hsl(202, 55%, 16%);
+}
+body main .container .row .form-col form .form-check .form-check-label {
+  font-weight: 700;
+}
+body main .container .row .form-col form .form-check:hover {
+  border: 0.0625rem solid hsl(61, 70%, 52%);
+}
+body main .container .row .results-col {
+  background-color: hsl(202, 55%, 16%);
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  border-bottom-left-radius: 3.75rem;
+  border-bottom-right-radius: 0.625rem;
+}
+body main .container .row .results-col h5 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+body main .container .row .results-col p {
+  color: hsl(200, 26%, 54%);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+body main .container .row .results-col .monthly-repayments-div {
+  border: 0.625rem solid hsl(215, 55%, 16%);
+  border-radius: 0.9375rem;
+  border-top-color: hsl(61, 70%, 52%);
+  border-top-width: 0.25rem;
+  width: 21.875rem;
+  line-height: 1.25rem;
+  background-color: hsl(215, 55%, 16%);
+}
+body main .container .row .results-col .monthly-repayments-div .monthly-repayments {
+  color: hsl(61, 70%, 52%);
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+body main .container .row .results-col .monthly-repayments-div .total-repayment {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* footer */
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  bottom: 0;
+  right: 0.625rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  body main .container {
+    border-radius: 0;
+  }
+  body main .container .row .form-col {
+    border-radius: 0;
+  }
+  body main .container .row .results-col {
+    border-radius: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

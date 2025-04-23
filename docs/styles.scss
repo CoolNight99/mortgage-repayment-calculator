@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* body */
+body {
+    background-color: hsl(202, 86%, 94%) !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+
+    main {
+        .container {
+            background-color: hsl(0, 0%, 100%);
+            width: 53.125rem;
+            border-radius: 0.625rem;
+
+            .row {
+                /* form column */
+                .form-col {
+                    .form-col-header {
+                        h5 {
+                            font-weight: 700;
+                        }
+
+                        p {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+
+                    form {
+                        label {
+                            color: hsl(202, 55%, 16%);
+                            font-size: 0.9375rem;
+                        }
+
+                        .input-group {
+                            border: 0.0625rem solid hsl(202, 55%, 16%);
+                            border-radius: 0.3125rem;
+
+                            input {
+                                font-weight: 700;
+                                cursor: pointer;
+                            }
+
+                            input:hover {
+                                outline: none;
+                                box-shadow: none;
+                            }
+
+                            .input-group-text {
+                                background-color: hsl(202, 86%, 94%);
+                                font-weight: 700;
+                            }
+                        }
+
+                        .input-group:hover, .input-group:focus-within {
+                            box-shadow: none;
+                            outline: none;
+                        }
+
+                        .input-group:focus-within .input-group-text {
+                            background-color: hsl(61, 70%, 52%);;
+                        }
+
+                        button {
+                            background-color: hsl(61, 70%, 52%);
+                            font-weight: 700;
+                            border-radius: 3.125rem;
+                            transition: opacity 0.2s;
+                        }
+
+                        button:hover {
+                            opacity: 0.6;
+                        }
+
+                        .form-check {
+                            border: 0.0625rem solid hsl(202, 55%, 16%);
+                            border-radius: 0.3125rem;
+                            cursor: pointer;
+                            transition: border-color 0.2s;
+
+                            input {
+                                border: 0.0625rem solid hsl(202, 55%, 16%);
+                            }
+
+                            .form-check-label {
+                                font-weight: 700;
+                            }
+                        }
+
+                        .form-check:hover {
+                            border: 0.0625rem solid hsl(61, 70%, 52%);
+                        }
+                    }
+                }
+
+                /* results column */
+                .results-col {
+                    background-color: hsl(202, 55%, 16%);
+                    border-top-left-radius: 0.625rem;
+                    border-top-right-radius: 0.625rem;
+                    border-bottom-left-radius: 3.75rem;
+                    border-bottom-right-radius: 0.625rem;
+
+                    h5 {
+                        color: hsl(0, 0%, 100%);
+                        font-weight: 500;
+                    }
+
+                    p {
+                        color: hsl(200, 26%, 54%);
+                        font-weight: 500;
+                        font-size: 0.875rem;
+                    }
+
+                    .monthly-repayments-div {
+                        border: 0.625rem solid hsl(215, 55%, 16%);
+                        border-radius: 0.9375rem;
+                        border-top-color: hsl(61, 70%, 52%);
+                        border-top-width: 0.25rem;
+                        width: 21.875rem;
+                        line-height: 1.25rem;
+                        background-color: hsl(215, 55%, 16%);
+
+                        .monthly-repayments {
+                            color: hsl(61, 70%, 52%);
+                            font-size: 3.125rem;
+                            font-weight: 700;
+                        }
+
+                        .total-repayment {
+                            color: hsl(0, 0%, 100%);
+                            font-weight: 700;
+                            font-size: 1.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* footer */
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    bottom: 0;
+    right: 0.625rem;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        main {
+            .container {
+                border-radius: 0;
+
+                .row {
+                    .form-col {
+                        border-radius: 0;
+                    }
+
+                    .results-col {
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+  
