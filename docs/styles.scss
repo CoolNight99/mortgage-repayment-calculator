@@ -4,6 +4,7 @@
 body {
     background-color: hsl(202, 86%, 94%) !important;
     font-family: "Plus Jakarta Sans", sans-serif !important;
+    overflow-x: hidden;
 
     main {
         .container {
@@ -150,11 +151,12 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     body {
         main {
             .container {
                 border-radius: 0;
+                width: 100vw;
 
                 .row {
                     .form-col {
@@ -169,4 +171,9 @@ body {
         }
     }
 }
-  
+
+@media (min-width: 577px) {
+    body {
+        height: 100vh;
+    }
+}

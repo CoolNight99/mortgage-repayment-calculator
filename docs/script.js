@@ -91,9 +91,3 @@ const mortgageCalculator = Vue.createApp({
 });
 
 mortgageCalculator.mount("#mortgageCalculator");
-
-const body = document.querySelector("body");
-
-if (window.matchMedia("max-width: 768px").matches) {
-  body.classList.remove("vh-100");
-}

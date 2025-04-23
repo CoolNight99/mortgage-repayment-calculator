@@ -3,6 +3,7 @@
 body {
   background-color: hsl(202, 86%, 94%) !important;
   font-family: "Plus Jakarta Sans", sans-serif !important;
+  overflow-x: hidden;
 }
 body main .container {
   background-color: hsl(0, 0%, 100%);
@@ -118,15 +119,21 @@ body main .container .row .results-col .monthly-repayments-div .total-repayment 
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   body main .container {
     border-radius: 0;
+    width: 100vw;
   }
   body main .container .row .form-col {
     border-radius: 0;
   }
   body main .container .row .results-col {
     border-radius: 0;
+  }
+}
+@media (min-width: 577px) {
+  body {
+    height: 100vh;
   }
 }
 
