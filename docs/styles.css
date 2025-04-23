@@ -40,6 +40,7 @@ body main .container .row .form-col form .input-group input:hover {
 body main .container .row .form-col form .input-group .input-group-text {
   background-color: hsl(202, 86%, 94%);
   font-weight: 700;
+  color: hsl(200, 24%, 40%);
 }
 body main .container .row .form-col form .input-group:hover, body main .container .row .form-col form .input-group:focus-within {
   box-shadow: none;
